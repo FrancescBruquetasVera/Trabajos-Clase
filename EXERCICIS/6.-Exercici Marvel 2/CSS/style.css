@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+header{
+    text-align: center;
+    background-color: rgb(25, 24, 24);
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+
+}
+
+.grid-container {
+  
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    font-family: 'Vina Sans', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+
+}
+
+.grid-container 
+.Comic{
+    border-radius: 5px;
+    background-color: rgb(25, 24, 24);
+
+}
+
+.grid-container 
+.Comic 
+.Imagen{
+
+    display: block;
+    width: 60%;
+    box-shadow: 10px 10px rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.grid-container 
+.Comic 
+.letras{
+
+    text-align: left;
+    margin-left: 50px;
+
+}
+span{
+
+    font-size: 10px;
+    color: grey;
+
+}
+
+button{
+
+    display: block;
+    background-color: rgb(14, 255, 14);
+    font-size: 25px;
+    margin-top: -60px;
+    margin-left: 240px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #00ffff
+    
+    
+}
