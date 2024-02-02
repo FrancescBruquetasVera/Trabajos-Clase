@@ -1,0 +1,128 @@
+body{
+ background-color: grey;
+}
+
+
+main{
+position: relative;
+margin-right: auto;
+margin-left: auto;
+width: 1110px;
+height: 700px;
+background-color: white;
+}
+
+
+
+
+
+.bg{
+    clip-path: polygon(0 0, 100% 0%, 100% 81%, 0 96%);
+    position: relative;
+    width: 1110px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+
+.ver{
+    position: absolute;
+    left: 150px;
+    top: 200px ;
+    box-shadow: 4px 4px 4px rgb(184, 184, 184);
+    width: 250px;
+    height: 350px;
+
+}
+
+.titulo{
+    position: absolute;
+    left: 450px;
+    top: 240px;
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.subtitulo{
+    position: absolute;
+    left: 440px;
+    top: 290px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+
+.likes{
+    position: absolute;
+    left: 470px;
+    top: 340px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+
+}
+
+.corazon{
+    position: absolute;
+    left: 455px;
+    top: 365px;
+
+
+}
+
+.pegi{
+position: absolute;
+left: 700px;
+top: 277px;
+background-color: rgb(183, 183, 6);
+border-radius: 20%;
+padding-left: 10px;
+padding-bottom: 7px;
+text-align: center;
+}
+
+.lorem{
+position: absolute;
+left: 450px;
+font-size: 20px;
+top: 400px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.link{
+    left: 450px;
+    top: 580px;
+    position: absolute;
+    color: red;
+    font-size: 20px;
+}
+
+.grid-container{
+    grid-template-columns: auto auto auto;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+    width: 10%;
+    position: absolute;
+    top: 620px;
+    right: 500px;
+}
+
+.grid{
+    grid-template-columns: auto auto;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+    width: 5%;
+    position: absolute;
+    top: 575px;
+    right: 850px;
+    color: black;
+
+}
