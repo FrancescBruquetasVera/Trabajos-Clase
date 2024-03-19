@@ -1,10 +1,9 @@
 let x = 15
 let y = 25
-let z = x * y
 let result = x + y
 let w = "empanadas"
-let result2 = x - z
-let result3 = x * z
+let result2 = x - y
+let result3 = x * y
 let result4 = x / y
 let result5 = x ** y
 

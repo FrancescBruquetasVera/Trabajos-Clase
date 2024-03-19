@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.titulo{
+    font-size: 70px;
+    color: yellow;
+    font-family: "Lobster", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fondo{
+    z-index: -2;
+    width: 1750px;
+    position: absolute;
+    height: 750px;
+}
+
+.tele{
+    z-index: -1;
+    position: absolute;
+    width: 700px;
+    height: 550px;
+    left: 450px;
+    top: 200px;
+}
+
+.grid-container{
+background-color: black;
+margin-left: 650px;
+margin-right: 610px;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+.operacions{
+    color: rgb(230, 19, 19);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 650px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+.operacions1{
+    color: rgb(11, 230, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+
+
+
+}
+
+.variable{
+color: white;
+    font-size: 40px;
+    text-align: center;
+}
