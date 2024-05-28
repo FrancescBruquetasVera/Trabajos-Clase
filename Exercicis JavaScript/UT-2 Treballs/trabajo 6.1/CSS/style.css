@@ -1,0 +1,38 @@
+.titulo{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.gridcontainer{
+    background-color: rgb(235, 255, 136);
+    margin-left: 450px;
+    padding-left:px ;
+    margin-right: 450px;
+    text-align: center;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.numero{
+    font-size: 25px;
+    color: blue;
+    text-align: center;
+}
+
+.multiplicación{
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.gridcontainer1{
+    background-color: rgb(255, 246, 246);
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 50px;
+
+}

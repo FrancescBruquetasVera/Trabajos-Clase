@@ -1,0 +1,32 @@
+.gridcontainer{
+    background-color: rgb(235, 255, 136);
+    margin-left: 450px;
+    padding-left:px ;
+    margin-right: 450px;
+    text-align: center;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.titulo{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+form{
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.numero{
+    font-size: 25px;
+    color: blue;
+
+}

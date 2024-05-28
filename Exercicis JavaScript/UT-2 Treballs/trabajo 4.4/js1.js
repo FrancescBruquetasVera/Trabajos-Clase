@@ -1,49 +1,29 @@
-function suma(){
-let numero1;
-let numero2;
+function suma(operacion){
+let resultado;
 
-numero1 = document.getElementById("numero1").value;
-numero2 = document.getElementById("numero2").value;
-numero1 = Number(numero1);
-numero2 = Number(numero2);
+let n1 = document.getElementById("numero1").value;
+let n2 = document.getElementById("numero2").value;
 
-suma= numero1 + numero2
+switch(operacion){
+case 1:
+    resultado = Number(n1) + Number(n2)
+    break;
 
-document.getElementById("resultado").innerHTML = suma
+case 2:
+    resultado = Number(n1) - Number(n2)
+    break;
 
 
+case 3:
+    resultado = Number(n1) * Number(n2)
+    break;
+
+
+case 4:
+    resultado = Number(n1) / Number(n2)
+    break;
 
 }
 
-function resta(){
-    let numero1;
-    let numero2;
-    
-    numero1 = document.getElementById("numero1").value;
-    numero2 = document.getElementById("numero2").value;
-    
-    document.getElementById("resultado").innerHTML = numero1 - numero2
-     
-    }
-
-function multiplicación(){
-    let numero1;
-    let numero2;
-        
-    numero1 = document.getElementById("numero1").value;
-    numero2 = document.getElementById("numero2").value;
-        
-    document.getElementById("resultado").innerHTML = numero1 * numero2
-    }
-
-function division(){
-    let numero1;
-    let numero2;
-            
-    numero1 = document.getElementById("numero1").value;
-    numero2 = document.getElementById("numero2").value;
-            
-    document.getElementById("resultado").innerHTML = numero1 / numero2
-            
-            
-            }
+document.getElementById("resultado").innerHTML = resultado
+}
